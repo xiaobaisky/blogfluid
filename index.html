@@ -1,0 +1,424 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>haisky-我的知識博客</title><meta name="keywords" content="黑苹果 计算机技术 闲杂事项 Python黑果安装 日常工作笔记 计算机技能 MachineLearning 小白 深度学习 opencore clover"><meta name="author" content="haisky"><meta name="copyright" content="haisky"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="这有关于我对生活、工作以及学习相关的问题和看法，还有一些优质的文章和分享。">
+<meta property="og:type" content="website">
+<meta property="og:title" content="haisky-我的知識博客">
+<meta property="og:url" content="https://www.haiskyblog.top/index.html">
+<meta property="og:site_name" content="haisky-我的知識博客">
+<meta property="og:description" content="这有关于我对生活、工作以及学习相关的问题和看法，还有一些优质的文章和分享。">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png">
+<meta property="article:author" content="haisky">
+<meta property="article:tag" content="黑苹果 计算机技术 闲杂事项 Python黑果安装 日常工作笔记 计算机技能 MachineLearning 小白 深度学习 opencore clover">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png"><link rel="shortcut icon" href="/img/favicon.png"><link rel="canonical" href="https://www.haiskyblog.top/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: undefined,
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":false},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: false,
+    post: false
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: undefined,
+  lightbox: 'fancybox',
+  Snackbar: undefined,
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery@2/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: false
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'haisky-我的知識博客',
+  isPost: false,
+  isHome: true,
+  isHighlightShrink: false,
+  isToc: false,
+  postUpdate: '2022-02-19 02:04:29'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><meta name="generator" content="Hexo 5.4.0"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="site-data is-center"><div class="data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a></div><div class="data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a></div><div class="data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div></div><hr/></div></div><div class="page" id="body-wrap"><header class="full_page" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">haisky-我的知識博客</a></span><div id="menus"><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="site-info"><h1 id="site-title">haisky-我的知識博客</h1></div><div id="scroll-down"><i class="fas fa-angle-down scroll-down-effects"></i></div></header><main class="layout" id="content-inner"><div class="recent-posts" id="recent-posts"><div class="recent-post-item"><div class="post_cover left"><a href="/nongxinshezhaopin/" title="关于河北省农村信用社系统员工招聘笔试的公告"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img-1/lianshe.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于河北省农村信用社系统员工招聘笔试的公告"></a></div><div class="recent-post-info"><a class="article-title" href="/nongxinshezhaopin/" title="关于河北省农村信用社系统员工招聘笔试的公告">关于河北省农村信用社系统员工招聘笔试的公告</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2022-01-28T16:00:00.000Z" title="发表于 2022-01-28 16:00:00">2022-01-28</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E8%BD%AC%E8%BD%BD%E5%86%85%E5%AE%B9/">转载内容</a></span></div><div class="content">
+ 关于河北省农村信用社系统员工招聘笔试的公告
+
+	各位考生：
+
+	&nbsp; &nbsp; &nbsp; &nbsp;根据河北省农村信用社系统员工招聘工作安排，综合考虑当前疫情防控形势和报考人员规模，现将笔试相关事项公告如下：
+
+	&nbsp; &nbsp; &nbsp; &nbsp;一、河北省农村信用社系统员工招聘笔试计划于2022年3月中下旬进行。为确保笔试的公平、公正，本次笔试采取“线下方式”进行，具体时间视疫情防控形势确定。
+
+	&nbsp; &nbsp; &nbsp; &nbsp;二、近期，第三方机构将以短信或邮件方式发送笔试相关事项通知，请及时回复确认是否参加笔试。对回复确认不参加笔试的考生，不再安排笔试，并在收到回复信息后5个工作日内全额退返考务费，请及时关注退款信息。
+
+	&nbsp; &nbsp; &nbsp; 三、考前，第三方机构会以短信或邮件方式发送具体笔试通知，确定笔试时间、地点等相关事项。请务必及时查看短信及邮件通知，并关注河北省农村信用社联合社官方网站（www.hebnx.com）及河北农信微讯公众号。
+
+	&nbsp; &nbsp; &nbsp; &n ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/20211119/" title="重装系统怎么恢复hexo？"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img-1/1637326940000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="重装系统怎么恢复hexo？"></a></div><div class="recent-post-info"><a class="article-title" href="/20211119/" title="重装系统怎么恢复hexo？">重装系统怎么恢复hexo？</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-11-19T19:00:00.000Z" title="发表于 2021-11-19 19:00:00">2021-11-19</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">经验分享</a></span></div><div class="content">依次进行以下操作：
+
+
+
+git config --global user.email “417225230@qq.com” 
+
+
+git config --global user.name “xiaobaisky”
+
+
+ssh-keygen -t rsa -C “417225230@qq.com”
+
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/20211111/" title="电子交付使用及消库规范"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1636628344000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="电子交付使用及消库规范"></a></div><div class="recent-post-info"><a class="article-title" href="/20211111/" title="电子交付使用及消库规范">电子交付使用及消库规范</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-11-11T19:00:00.000Z" title="发表于 2021-11-11 19:00:00">2021-11-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">经验分享</a></span></div><div class="content">
+
+
+
+
+</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/taiji/" title="陈氏太极拳老架一路"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1631861788000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="陈氏太极拳老架一路"></a></div><div class="recent-post-info"><a class="article-title" href="/taiji/" title="陈氏太极拳老架一路">陈氏太极拳老架一路</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-09-05T12:00:00.000Z" title="发表于 2021-09-05 12:00:00">2021-09-05</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E6%88%91%E7%88%B1%E5%A4%AA%E6%9E%81/">我爱太极</a></span></div><div class="content">边老师一路演练
+
+    
+    
+
+吕德合一路讲解
+
+    
+    
+
+
+《太极拳论》-王宗岳
+
+太极者，无极而生，动静之机，阴阳之母也。 动之则分，静之则合。无过不及，随曲就伸。人刚我柔谓之走，我顺人背谓之粘。动急则急应，动缓则缓随。虽变化万端，而理唯一贯。由招熟而渐悟懂劲，由懂劲而阶及神明。然非用力之久，不能豁然贯通焉。 虚领顶劲，气沉丹田。不偏不倚，忽隐忽现。左重则左虚，右重则右杳。仰之则弥高，俯之则弥深，进之则愈长，退之则愈促。一羽不能加，蝇虫不能落，人不知我，我独知人。英雄所向无敌，盖皆由此而及也。
+
+
+斯技旁门甚多，虽势有区别，概不外乎壮欺弱，慢让快耳。有力打无力，手慢让手快，皆是先天自然之能，非关学力而有为也。察四两拨千斤之句，显非力胜；观耄耋能御众之形，快何能为。立如平/秤准，活似车轮。偏沉则随，双重则滞。每见数年纯功，不能运化者，率皆自为人制，双重之病未悟耳。欲避此病，须知阴阳。粘即是走，走即是粘。阴不离阳，阳不离阴。阴阳相济，方为懂劲。懂劲后，愈练愈精，默识揣摩，渐至从心所欲。本是舍己从人，多误舍近求远。所谓差之毫厘，谬之千里，学者不可不详辨焉。
+</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/fagui3/" title="【二建法规】第三章 建设工程发承包制度"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1631862360000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【二建法规】第三章 建设工程发承包制度"></a></div><div class="recent-post-info"><a class="article-title" href="/fagui3/" title="【二建法规】第三章 建设工程发承包制度">【二建法规】第三章 建设工程发承包制度</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-29T17:00:00.000Z" title="发表于 2021-06-29 17:00:00">2021-06-29</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BA%8C%E5%BB%BA%E7%AC%94%E8%AE%B0/">二建笔记</a></span></div><div class="content">
+第三章 建设工程发承包制度
+
+第一节 招标投标制度
+第二节 工程承包制度
+第三节 建筑市场信用体系建设
+
+
+第一节 建设工程招标投标制度
+
+1、招标范围
+（1）必须招标的项目范围（3类）【基础设施+国有+国际】
+
+
+
+项目
+具体包括
+
+
+
+
+大型基础设施、公用事业等关系社会公共利益、公众安全的项目
+具体范围由发改委会同国务院有关部门制订，报国务院批准
+
+
+全部或者部分使用国有资金投资或者国家融资的项目
+1.使用预算资金200万元人民币以上，并且该资金占投资额10%以上的项目（200+10%）2.使用国有企业事业单位资金，并且该资金占控股或者主导地位的项目（控股/主导）
+
+
+使用国际组织或者外国政府贷款、援助资金的项目
+1.使用世界银行、亚洲开发银行等国际组织贷款、援助资金的项目2.使用外国政府及其机构贷款、援助资金的项目
+
+
+
+（2）必须招标的规模标准（100+200+400）
+
+
+
+类别
+标准
+
+
+
+
+施工单项合同
+单项估算价在400万元人民币以上的
+
+
+中要设备、材料等货物的采购
+单项合同估算价在200万元人民币以上的
+
+
+勘察、设计、监理
+单项合同在100万元人民币以上的
+
+
+ ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/fagui2/" title="【二建法规】第二章 建设工程施工许可制度"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1631862220000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【二建法规】第二章 建设工程施工许可制度"></a></div><div class="recent-post-info"><a class="article-title" href="/fagui2/" title="【二建法规】第二章 建设工程施工许可制度">【二建法规】第二章 建设工程施工许可制度</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-24T17:00:00.000Z" title="发表于 2021-06-24 17:00:00">2021-06-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BA%8C%E5%BB%BA%E7%AC%94%E8%AE%B0/">二建笔记</a></span></div><div class="content">
+第二章 施工许可法律制度：
+
+第一节 建设工程施工许可制度（对项目的认可）
+第二节 施工企业从业资格制度（对单位的许可）
+第三节 建造师注册执业制度（对人的认可）
+
+
+第一节 建设工程施工许可制度
+1、我国对建设工程开工条件的审批形式（双轨制）
+
+2、施工许可制度的内涵
+
+
+
+项目
+内容
+
+
+
+
+时间
+在建筑工程开工前
+
+
+对象
+房屋建筑及其附属设施的建造、装修装饰配套的线路、管道、设备的安装城镇市政基础设施工程的施工
+
+
+申领单位
+建设单位（业主或项目法人），不是施工单位
+
+
+核发单位
+工程所在地县级以上人民政府住房城乡建设主管部门
+
+
+审查内容
+工程是否符合法定的开工条件
+
+
+
+3、施工许可证的法定批准条件
+
+已经办理该建筑工程用地批准手续----有地
+在城市、镇规划区的建筑工程，已经取得建设工程规划许可证—通过规划
+施工场地已经基本具备施工条件，需要征收房屋的，其进度符合施工要求—地可以用
+已经确定施工企业—有施工的人
+有满足施工需要技术资料，施工图设计文件已按规定审查合格—图+审查
+有保证工程质量和安全的具体措施—有质安措施
+建设资金已经落实—有钱
+法律、行政法规规定的其他条 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/fagui1/" title="【二建法规】第一章 建设工程基本法律知识"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1631862103000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【二建法规】第一章 建设工程基本法律知识"></a></div><div class="recent-post-info"><a class="article-title" href="/fagui1/" title="【二建法规】第一章 建设工程基本法律知识">【二建法规】第一章 建设工程基本法律知识</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-24T17:00:00.000Z" title="发表于 2021-06-24 17:00:00">2021-06-24</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E4%BA%8C%E5%BB%BA%E7%AC%94%E8%AE%B0/">二建笔记</a></span></div><div class="content">
+第一章 建设工程基本法律知识
+框架：法律体系–法人制度–代理制度–物权制度–债权制度–知识产权制度–担保制度–保险制度–法律责任制度
+
+第一节 建设工程法律体系
+1、两个概念
+
+
+
+法律形式
+名称特征
+
+
+
+
+
+法律部门（部门法）
+根据一定标准、原则所制定的同类法律规范的总称
+
+
+
+法的形式（四层含义）
+法律规范创制机关的性质和级别法律规范的外部表现形式法律规范的效力等级法律规范的地域效力
+
+
+
+
+2、我国法律体系的基本框架
+宪法及宪法相关法
+民法商法
+行政法
+经济法
+社会法
+刑法
+诉讼与非诉讼程序法
+3、法的具体形式（共七类）
+
+
+
+法律形式
+名称特点
+制定单位
+
+
+
+
+宪法
+宪法
+全国人大
+
+
+法律
+XX法
+全国人大及常委会
+
+
+行政法规
+XX条例
+国务院
+
+
+部门规章
+XX规定、办法、实施细则
+国务院各部委
+
+
+地方法规（自治、单行条例）
+XX地方XX条例
+地方（省级及设区的市）人大及常委会
+
+
+地方政府规章
+XX地方XX规定、办法、实施细则
+省级及设区的市级人民政府
+
+
+国际条约
+XX公约、条约、协议、宪章、盟约
+
+
+
+
+4、《立法法》规定只能制定法律的事项
+
+国家主权的事项 ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/harmonyos/" title="盘古一笑鸿蒙开，神马负图从天来！"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1623415221000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="盘古一笑鸿蒙开，神马负图从天来！"></a></div><div class="recent-post-info"><a class="article-title" href="/harmonyos/" title="盘古一笑鸿蒙开，神马负图从天来！">盘古一笑鸿蒙开，神马负图从天来！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-06-11T20:00:00.000Z" title="发表于 2021-06-11 20:00:00">2021-06-11</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%88/">生活杂谈</a></span></div><div class="content">何为鸿蒙？
+
+HarmonyOS 是新一代的智能终端操作系统，为不同设备的智能化、互联与协同提供了统一的语言。带来简洁，流畅，连续，安全可靠的全场景交互体验。
+
+鸿蒙有哪些特性？
+
+
+分散式架构首度用于终端 OS，实现跨终端电子设备无缝配合。
+鸿蒙OS 的「分散式OS 架构」和「分散式软汇流排技术」透过公共通信平台、分散式资料管理，分散式能力调度和虚拟外设等四大能力，最后可使消费者享受到强大的跨终端作业相互配合能力，进而带来的无缝体验。
+
+
+第二、确定时延引擎和高性能 IPC(进程间通信) 技术实现系统流畅运作。
+鸿蒙 OS 透过使用确定时延引擎和高性能 IPC 两大技术解决现有系统性能不足的问题。确定时延引擎可在执行指令前分配系统中指令执行优先顺序及时限进行调度处理，使应用程式回应时延降低 25.7%。鸿蒙微内核结构小巧的特性可使 IPC 性能大大提升，进程通信效率较现有系统提升 5 倍。
+
+
+第三、基于微内核架构重塑终端设备安全可信。
+鸿蒙 OS 采用全新的微内核设计，拥有更强的安全特性和低时延等特点。鸿蒙 OS 将微内核技术应用于可信执行环境 (TEE)，通过形式化方法，从源头验 ...</div></div></div><div class="recent-post-item"><div class="post_cover left"><a href="/site-gray/" title="网站整站变灰，用于哀悼！"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1621988679000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="网站整站变灰，用于哀悼！"></a></div><div class="recent-post-info"><a class="article-title" href="/site-gray/" title="网站整站变灰，用于哀悼！">网站整站变灰，用于哀悼！</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-26T08:00:00.000Z" title="发表于 2021-05-26 08:00:00">2021-05-26</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/">经验分享</a></span></div><div class="content">
+“共和国勋章”获得者、中国工程院院士、国家杂交水稻工程技术研究中心主任、湖南省政协原副主席袁隆平，因多器官功能衰竭，于2021年5月22日13时07分在长沙逝世，享年91岁。
+博客全站变灰，以表示哀悼！
+
+修改配置文件
+文件地址：themes/butterfly/_config.yml
+若使用无污染方式引入 butterfly，则在项目根目录 _config.butterfly.yml
+12+ # 网站变灰 + grayTheme: true # true &amp;&amp; false
+修改主题
+文件地址：themes/butterfly/layout/includes/layout.pug
+1234567- var htmlClassHideAside = theme.aside.enable &amp;&amp; theme.aside.hide ? &#x27;hide-aside&#x27; : &#x27;&#x27;- var hideAside = !theme.aside.enable || page.aside === false ? &#x27;hide-as ...</div></div></div><div class="recent-post-item"><div class="post_cover right"><a href="/mac-win-time/" title="win10+macOS双系统时间不同步解决方案"><img class="post_bg" src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1620531831000.png" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="win10+macOS双系统时间不同步解决方案"></a></div><div class="recent-post-info"><a class="article-title" href="/mac-win-time/" title="win10+macOS双系统时间不同步解决方案">win10+macOS双系统时间不同步解决方案</a><div class="article-meta-wrap"><span class="post-meta-date"><i class="far fa-calendar-alt"></i><span class="article-meta-label">发表于</span><time datetime="2021-05-09T10:00:00.000Z" title="发表于 2021-05-09 10:00:00">2021-05-09</time></span><span class="article-meta"><span class="article-meta-separator">|</span><i class="fas fa-inbox"></i><a class="article-meta__categories" href="/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%88/">生活杂谈</a></span></div><div class="content">win
+以管理员身份打开CMD窗口输入以下命令：
+1Reg add HKLM\SYSTEM\CurrentControlSet\Control\TimeZoneInformation /v RealTimeIsUniversal /t REG_DWORD /d 1
+然后就可以了，但BIOS仍然是错误的时间，不过不常进去BIOS不用在意。
+mac
+在终端输入一下命令：
+1sudo sh -c &quot;$(curl -kfsSL https://raw.githubusercontent.com/hieplpvip/LocalTime-Toggle/master/fix_time_osx.sh)&quot;
+然后执行这个脚本即可。
+</div></div></div><nav id="pagination"><div class="pagination"><span class="page-number current">1</span><a class="page-number" href="/page/2/#content-inner">2</a><a class="extend next" rel="next" href="/page/2/#content-inner"><i class="fas fa-chevron-right fa-fw"></i></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="https://i.loli.net/2021/02/24/5O1day2nriDzjSu.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">haisky</div><div class="author-info__description">这有关于我对生活、工作以及学习相关的问题和看法，还有一些优质的文章和分享。</div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">11</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">14</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">5</div></a></div></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/xxxxxx"><i class="fab fa-github"></i><span>Follow Me</span></a></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">This is my Blog</div></div><div class="sticky_layout"><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/nongxinshezhaopin/" title="关于河北省农村信用社系统员工招聘笔试的公告"><img src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img-1/lianshe.jpeg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="关于河北省农村信用社系统员工招聘笔试的公告"/></a><div class="content"><a class="title" href="/nongxinshezhaopin/" title="关于河北省农村信用社系统员工招聘笔试的公告">关于河北省农村信用社系统员工招聘笔试的公告</a><time datetime="2022-01-28T16:00:00.000Z" title="发表于 2022-01-28 16:00:00">2022-01-28</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/20211119/" title="重装系统怎么恢复hexo？"><img src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img-1/1637326940000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="重装系统怎么恢复hexo？"/></a><div class="content"><a class="title" href="/20211119/" title="重装系统怎么恢复hexo？">重装系统怎么恢复hexo？</a><time datetime="2021-11-19T19:00:00.000Z" title="发表于 2021-11-19 19:00:00">2021-11-19</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/20211111/" title="电子交付使用及消库规范"><img src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1636628344000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="电子交付使用及消库规范"/></a><div class="content"><a class="title" href="/20211111/" title="电子交付使用及消库规范">电子交付使用及消库规范</a><time datetime="2021-11-11T19:00:00.000Z" title="发表于 2021-11-11 19:00:00">2021-11-11</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/taiji/" title="陈氏太极拳老架一路"><img src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1631861788000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="陈氏太极拳老架一路"/></a><div class="content"><a class="title" href="/taiji/" title="陈氏太极拳老架一路">陈氏太极拳老架一路</a><time datetime="2021-09-05T12:00:00.000Z" title="发表于 2021-09-05 12:00:00">2021-09-05</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/fagui3/" title="【二建法规】第三章 建设工程发承包制度"><img src="https://cdn.jsdelivr.net/gh/xiaobaisky/CDN-BLOG@img/1631862360000.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="【二建法规】第三章 建设工程发承包制度"/></a><div class="content"><a class="title" href="/fagui3/" title="【二建法规】第三章 建设工程发承包制度">【二建法规】第三章 建设工程发承包制度</a><time datetime="2021-06-29T17:00:00.000Z" title="发表于 2021-06-29 17:00:00">2021-06-29</time></div></div></div></div><div class="card-widget card-categories"><div class="item-headline">
+            <i class="fas fa-folder-open"></i>
+            <span>分类</span>
+            
+            </div>
+            <ul class="card-category-list" id="aside-cat-list">
+            <li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E4%BA%8C%E5%BB%BA%E7%AC%94%E8%AE%B0/"><span class="card-category-list-name">二建笔记</span><span class="card-category-list-count">3</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E6%88%91%E7%88%B1%E5%A4%AA%E6%9E%81/"><span class="card-category-list-name">我爱太极</span><span class="card-category-list-count">1</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%94%9F%E6%B4%BB%E6%9D%82%E8%B0%88/"><span class="card-category-list-name">生活杂谈</span><span class="card-category-list-count">2</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E7%BB%8F%E9%AA%8C%E5%88%86%E4%BA%AB/"><span class="card-category-list-name">经验分享</span><span class="card-category-list-count">4</span></a></li><li class="card-category-list-item "><a class="card-category-list-link" href="/categories/%E8%BD%AC%E8%BD%BD%E5%86%85%E5%AE%B9/"><span class="card-category-list-name">转载内容</span><span class="card-category-list-count">1</span></a></li>
+            </ul></div><div class="card-widget card-tags"><div class="item-headline"><i class="fas fa-tags"></i><span>标签</span></div><div class="card-tag-cloud"><a href="/tags/HarmonyOS/" style="font-size: 1.1em; color: #999">HarmonyOS</a> <a href="/tags/github/" style="font-size: 1.1em; color: #999">github</a> <a href="/tags/hexo/" style="font-size: 1.3em; color: #99a1ac">hexo</a> <a href="/tags/mac/" style="font-size: 1.1em; color: #999">mac</a> <a href="/tags/win/" style="font-size: 1.1em; color: #999">win</a> <a href="/tags/%E4%BA%8C%E5%BB%BA/" style="font-size: 1.5em; color: #99a9bf">二建</a> <a href="/tags/%E5%A4%AA%E6%9E%81/" style="font-size: 1.1em; color: #999">太极</a> <a href="/tags/%E6%99%BA%E5%AE%B6%E5%B7%A5%E7%A8%8B%E5%B8%88/" style="font-size: 1.1em; color: #999">智家工程师</a> <a href="/tags/%E6%B3%95%E8%A7%84/" style="font-size: 1.5em; color: #99a9bf">法规</a> <a href="/tags/%E7%81%B0/" style="font-size: 1.1em; color: #999">灰</a> <a href="/tags/%E8%81%94%E7%A4%BE%E6%8B%9B%E8%81%98/" style="font-size: 1.1em; color: #999">联社招聘</a> <a href="/tags/%E8%A3%85%E7%BB%B4/" style="font-size: 1.1em; color: #999">装维</a> <a href="/tags/%E9%99%88%E6%B0%8F%E5%A4%AA%E6%9E%81%E6%8B%B3/" style="font-size: 1.1em; color: #999">陈氏太极拳</a> <a href="/tags/%E9%B8%BF%E8%92%99/" style="font-size: 1.1em; color: #999">鸿蒙</a></div></div><div class="card-widget card-archives"><div class="item-headline"><i class="fas fa-archive"></i><span>归档</span></div><ul class="card-archive-list"><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2022/01/"><span class="card-archive-list-date">一月 2022</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/11/"><span class="card-archive-list-date">十一月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/09/"><span class="card-archive-list-date">九月 2021</span><span class="card-archive-list-count">1</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/06/"><span class="card-archive-list-date">六月 2021</span><span class="card-archive-list-count">4</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/05/"><span class="card-archive-list-date">五月 2021</span><span class="card-archive-list-count">2</span></a></li><li class="card-archive-list-item"><a class="card-archive-list-link" href="/archives/2021/03/"><span class="card-archive-list-date">三月 2021</span><span class="card-archive-list-count">1</span></a></li></ul></div><div class="card-widget card-webinfo"><div class="item-headline"><i class="fas fa-chart-line"></i><span>网站资讯</span></div><div class="webinfo"><div class="webinfo-item"><div class="item-name">文章数目 :</div><div class="item-count">11</div></div><div class="webinfo-item"><div class="item-name">本站访客数 :</div><div class="item-count" id="busuanzi_value_site_uv"></div></div><div class="webinfo-item"><div class="item-name">本站总访问量 :</div><div class="item-count" id="busuanzi_value_site_pv"></div></div><div class="webinfo-item"><div class="item-name">最后更新时间 :</div><div class="item-count" id="last-push-date" data-lastPushDate="2022-02-19T02:04:29.463Z"></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2022 By haisky</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script><div class="js-pjax"></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
